@@ -1,27 +1,27 @@
-import React from 'react';
-import { Link } from 'react-router-dom'
-import './index.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import { Nav, NavLink } from "./styles.js";
 
 export default () => (
-  <nav className={'nav'}>
+  <Nav>
     <div>
-      <div className={'nav__link'}>
-        <Link to={'/'}>Home</Link>
-      </div>
-      <div className={'nav__link'}>
-        <Link to={'/about'}>About</Link>
-      </div>
-      <div className={'nav__link'}>
-        <Link to={'/maps'}>Maps</Link>
-      </div>
-      <div className={'nav__link'}>
-        <Link to={'/admin'}>Administration</Link>
-      </div>
+      <NavLink>
+        <Link to={"/"}>Home</Link>
+      </NavLink>
+      <NavLink>
+        <Link to={"/about"}>About</Link>
+      </NavLink>
+      <NavLink>
+        <Link to={"/maps"}>Maps</Link>
+      </NavLink>
+      <NavLink>
+        <Link to={"/admin"}>Administration</Link>
+      </NavLink>
     </div>
     <div>
-      <div className={'nav__link'}>
-        <Link to={'/logout'}>Logout</Link>
-      </div>
+      <NavLink>
+        <Link to={"/logout"}>Logout</Link>
+      </NavLink>
     </div>
-  </nav>
-)
+  </Nav>
+);

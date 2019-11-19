@@ -1,17 +1,17 @@
-import React from 'react'
-import './index.css'
+import React from "react";
 import logo from "../../resources/images/logo.svg";
+import { Header, HeaderItem, HeaderItemExpandable, HeaderLogo } from "./styles";
 
 export default () => (
-  <header className={'header'}>
-    <div className={'header__item'}>
-      <img src={logo} className={"header__logo"} alt={"logo"} />
-    </div>
-    <div className={'header__item header__item-expandable'}>
+  <Header>
+    <HeaderItem>
+      <HeaderLogo src={logo} alt={"logo"} />
+    </HeaderItem>
+    <HeaderItemExpandable>
       <span>Mid content</span>
-    </div>
-    <div className={'header__item'}>
+    </HeaderItemExpandable>
+    <HeaderItem>
       <span>x</span>
-    </div>
-  </header>
-)
+    </HeaderItem>
+  </Header>
+);
