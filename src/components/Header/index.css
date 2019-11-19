@@ -1,0 +1,24 @@
+.header {
+    background-color: #fff;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header__item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 30%;
+    min-width: 40px;
+}
+
+.header__item-expandable {
+    width: 100%;
+}
+
+.header__logo {
+    height: 40px;
+    width: 40px;
+}
