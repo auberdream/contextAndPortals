@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Nav, NavLink } from "./styles.js";
 
-export default () => (
-  <Nav>
+export default ({ navColor }) => (
+  <Nav navColor={navColor}>
     <div>
       <NavLink>
         <Link to={"/"}>Home</Link>
