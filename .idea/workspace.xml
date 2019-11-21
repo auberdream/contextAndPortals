@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34800dc3-d8e5-469e-abcf-41da6aad4c4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderPortal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderPortal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/About/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/About/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/About/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/About/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Admin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Maps/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Maps/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Page/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574165820726</updated>
-      <workItem from="1574165823738" duration="12552000" />
+      <workItem from="1574165823738" duration="21341000" />
     </task>
     <servers />
   </component>

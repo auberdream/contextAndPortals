@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { createPortal } from "react-dom";
+import { NavContext } from "../../App";
 
 export default ({ children }) => {
-  let node = document.getElementById("midContent");
+  const context = useContext(NavContext);
+
+  let node = context.navRef;
   if (!node) return <></>;
-  return createPortal(children, node);
+  return createPortal(children, node.current);
 };
